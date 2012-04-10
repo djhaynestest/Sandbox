@@ -19,7 +19,7 @@
       <!-- =============================================================================== -->
       <xsd:element name="interim_fix_test" substitutionGroup="oval-def:test">
             <xsd:annotation>
-                  <xsd:documentation>The interim fix test is used to check information associated with different interim or emergency fixes installed on the system. The information being tested is based off the emgr -l -u VUID command. It extends the standard TestType as defined in the oval-definitions-schema and one should refer to the TestType description for more information. The required object element references an interim_fix_object and the optional state element specifies the information to check.</xsd:documentation>
+                  <xsd:documentation>The iblahblahfix test is used to check information associated with different interim or emergency fixes installed on the system. The information being tested is based off the emgr -l -u VUID command. It extends the standard TestType as defined in the oval-definitions-schema and one should refer to the TestType description for more information. The required object element references an interim_fix_object and the optional state element specifies the information to check.</xsd:documentation>
                   <xsd:appinfo>
                         <oval:element_mapping>
                               <oval:test>interim_fix_test</oval:test>
